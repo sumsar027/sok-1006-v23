@@ -28,22 +28,22 @@ df
 ----------------------------------------------------------------------------------------------
 
 # setter opp plottene
-fig, (ax, ax2) = plt.subplots(1,2, sharey = False, figsize=(15,5))
+fig, (plot1, plot2) = plt.subplots(1,2, sharey = False, figsize=(15,5))
 
 # lager navn til aksene 
-ax.set_ylabel('Pris', size = 15)
-ax2.set_ylabel('Pris', size = 15)
-ax.set_xlabel('År', size = 15)
-ax2.set_xlabel('År', size = 15)
+plot1.set_ylabel('Pris', size = 15)
+plot2.set_ylabel('Pris', size = 15)
+plot1.set_xlabel('År', size = 15)
+plot2.set_xlabel('År', size = 15)
 
 # lager plot
-ax.plot(df["Year"], df["p"], color = "blue", label = "pris",   marker = "o")
-ax2.plot(df["Year"], df["h"], color = "green", label = "innhøsting", marker = "o")
-ax2.plot(df["Year"], df["q"], color = "red", label = "avling",    marker = "o", linestyle = "--", alpha = 0.3)
+plot1.plot(df["Year"], df["p"], color = "blue", label = "pris",   marker = "o")
+plot2.plot(df["Year"], df["h"], color = "green", label = "innhøsting", marker = "o")
+plot2.plot(df["Year"], df["q"], color = "red", label = "avling",    marker = "o", linestyle = "--", alpha = 0.3)
 
 # legend
-ax.legend(loc = "upper left")
-ax2.legend(loc = "lower right")
+plot1.legend(loc = "upper left")
+plot2.legend(loc = "lower right")
 
 ------------------------------------------------------------------------------------------------------------------
 
@@ -98,21 +98,21 @@ df2
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # setter opp plot
-fig2, ax = plt.subplots()
+fig2, plot = plt.subplots()
 
 # lager navn til aksene
-ax.set_ylabel("Pris (P)")
-ax.set_xlabel("Mengde (Q)")
+plot.set_ylabel("Pris (P)")
+plot.set_xlabel("Mengde (Q)")
 
 # lager plot
-ax.plot(df2["Q"], df2["Supply (P)"], color = "red",  label = "Tilbud")
-ax.plot(df2["Q"], df2["Demand (P)"], color = "blue", label = "Etterspørsel")
+plot.plot(df2["Q"], df2["Supply (P)"], color = "red",  label = "Tilbud")
+plot.plot(df2["Q"], df2["Demand (P)"], color = "blue", label = "Etterspørsel")
 
 # setter en tittel 
-ax.set_title("Vannmelon, tilbud og etterspørsel")
+plot.set_title("Vannmelon, tilbud og etterspørsel")
 
 # legende
-ax.legend(loc = "lower right")
+plot.legend(loc = "lower right")
 
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -131,22 +131,22 @@ df2
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 # setter opp plot
-fig2, ax = plt.subplots()
+fig2, plot = plt.subplots()
 
 # lager navn til aksene
-ax.set_ylabel("Pris (P)")
-ax.set_xlabel("Mengde (Q)")
+plot.set_ylabel("Pris (P)")
+plot.set_xlabel("Mengde (Q)")
 
 # lager plot
-ax.plot(df2["Q"], df2["Supply (P)"], color = "red",  label = "Tilbud")
-ax.plot(df2["Q"], df2["Demand (P)"], color = "blue", label = "Etterspørsel")
-ax.plot(df2["Q"], df2["New supply (P)"], color = "green",  label = "Nytt tilbud")
+plot.plot(df2["Q"], df2["Supply (P)"], color = "red",  label = "Tilbud")
+plot.plot(df2["Q"], df2["Demand (P)"], color = "blue", label = "Etterspørsel")
+plot.plot(df2["Q"], df2["New supply (P)"], color = "green",  label = "Nytt tilbud")
 
 # setter en tittel 
-ax.set_title("Vannmelon, tilbud og etterspørsel")
+plot.set_title("Vannmelon, tilbud og etterspørsel")
 
 # legende
-ax.legend(loc = "lower right")
+plot.legend(loc = "lower right")
 
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
