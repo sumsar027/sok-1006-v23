@@ -1,0 +1,62 @@
+﻿12576: Kjørelengder, etter region, kjøretøytype, drivstofftype, statistikkvariabel og år;;;;
+;;;;
+;;;Gjennomsnittlig kjørelengde per kjøretøy (km);
+;;;2021;2022
+54 Troms og Finnmark - Romsa ja Finnmárku;Personbiler i alt;Bensin;7779;7476
+;;Diesel;12225;11644
+;;Elektrisitet;10950;11334
+;;;;
+En mer detaljert modell for beregning av kjørelengder ble utviklet i 2018 (se Om statistikken). 21. mars 2019 ble det publisert nye tall for 2018 og justerte tall for 2016 og 2017 beregnet med den nye modellen. Selv om omleggingen fra gammel til ny modell generelt sett har begrenset virkning på kjørelengdene i statistikken, vil det være noen avvik i forhold til tidligere publiserte tall for 2016 og 2017.;;;;
+"<b>Drivstofftype</b><br></br>
+
+<b>Andre drivstoff:</b>
+Inkluderer parafin, gass og hydrogen fram til og med 2015.<br></br>
+
+<b>Bensin- og dieselhybrider:</b>
+Bensin- og dieselhybrider ble i hovedsak registrert som ordinære bensin- og dieselbiler fram til og med 2015.";;;;
+2018-tallene ble oppdatert 24. mars 2020 som følge av endringer i beregningen av kjørelengder for kjøretøy i Rindal kommune.;;;;
+"I mars 2020 ble det 40 år gamle Motorvognregisteret til Statens vegvesen erstattet av et nytt Kjøretøyregister med ny teknologi og til dels nytt innhold. Endringer i bruk av variabler og kodelister i det nye registeret har medført at det vil kunne være avvik i kjørelengdestatistikken mellom 2019 og 2020 på de mest detaljerte nivåene.
+<br>
+Før 2020 var ikke kjøretøyer på Svalbard som kun var registrert for bruk utenfor offentlig vei med i statistikken.";;;;
+region:;;;;
+<a href='https://www.ssb.no/offentlig-sektor/kommunekatalog/endringer-i-de-regionale-inndelingene' target='footnote'><b>Se liste over endringer i de regionale inndelingene.</b></a>;;;;
+;;;;
+;;;;
+Sist endret:;;;;
+Gjennomsnittlig kjørelengde per kjøretøy (km):;;;;
+20230322 08:00;;;;
+;;;;
+Kilde:;;;;
+Statistisk sentralbyrå;;;;
+;;;;
+Kontakt:;;;;
+Gjennomsnittlig kjørelengde per kjøretøy (km):;;;;
+Henrik Bråthen, Statistisk sentralbyrå;;;;
+ +47 40 81 14 03;;;;
+bhe@ssb.no;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+Måleenhet:;;;;
+Gjennomsnittlig kjørelengde per kjøretøy (km):;;;;
+km;;;;
+Målemetode:;;;;
+Gjennomsnittlig kjørelengde per kjøretøy (km):;;;;
+Gjennomsnitt;;;;
+;;;;
+Referansetid:;;;;
+Gjennomsnittlig kjørelengde per kjøretøy (km);;;;
+31.12;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+;;;;
+Offisiell statistikk;;;;
+;;;;
+Database:;;;;
+Ekstern PRODUKSJON;;;;
+;;;;
+Intern referansekode:;;;;
+GjsnittKjorelengde;;;;
